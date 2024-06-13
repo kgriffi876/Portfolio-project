@@ -1,4 +1,27 @@
+body {
+  background-image: url("/images/bg-image.png");
+  background-size: cover;
+}
+
+.hero {
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 250px 30px;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
 h1 {
+  font-size: 72px;
+  text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -8,4 +31,13 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 18px;
+}
+
+.get-started {
+  color: #272142;
+  background: #fff;
+  padding: 18px 30px;
+  border-radius: 50px;
+  text-decoration: none;
 }
