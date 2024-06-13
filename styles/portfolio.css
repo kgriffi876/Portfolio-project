@@ -1,6 +1,15 @@
-body {
-  background-image: url("/images/bg-image.png");
-  background-size: cover;
+.body-font {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.button-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -8,36 +17,38 @@ body {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 250px 30px;
-  max-width: 600px;
+  padding: 265px 30px;
+  background-image: url("/images/bg-image.png");
 }
 
-h2 {
+.my-name {
   font-size: 24px;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: bold;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
 }
-h1 {
+.topic {
   font-size: 72px;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.4rem;
+  margin-bottom: 30px;
 }
 
-p {
+.hero-details {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-size: 18px;
+  margin-bottom: 60px;
+  max-width: 460px;
 }
 
 .get-started {
   color: #272142;
   background: #fff;
-  padding: 18px 30px;
+  padding: 18px 45px;
   border-radius: 50px;
+  font-size: 14px;
   text-decoration: none;
+  letter-spacing: 0.1rem;
 }
