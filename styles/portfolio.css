@@ -12,11 +12,23 @@
   text-transform: uppercase;
 }
 
+.mb-1 {
+  margin-bottom: 30px;
+}
+
 .hero {
+  background-image: url("/images/bg-image.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 908px;
+}
+
+.caption {
+  width: 595px;
   color: #fff;
   text-align: center;
-  padding: 275px 0px;
-  background-image: url("/images/bg-image.png");
 }
 
 .my-name {
@@ -48,4 +60,10 @@
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
