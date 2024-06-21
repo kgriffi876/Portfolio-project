@@ -9,7 +9,6 @@
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
-
   color: #fff;
 }
 
@@ -104,6 +103,11 @@
   padding: 20px;
   max-width: 423px;
   display: flex;
+}
+
+.gallery-title {
+  text-align: center;
+  color: #fff;
 }
 
 .footer-main {
