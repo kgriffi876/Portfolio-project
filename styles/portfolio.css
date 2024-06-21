@@ -1,7 +1,16 @@
-.body-font {
+.title-font {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+}
+
+.body-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #fff;
 }
 
 .button-font {
@@ -10,6 +19,16 @@
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
+}
+
+.button-shape {
+  color: #272142;
+  background: #fff;
+  padding: 18px 45px;
+  border-radius: 50px;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
 }
 
 .homepage {
@@ -44,28 +63,47 @@
   margin-bottom: 10px;
 }
 
-.hero-details {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 18px;
+.content-spacing {
   margin-bottom: 70px;
-}
-
-.get-started {
-  color: #272142;
-  background: #fff;
-  padding: 18px 45px;
-  border-radius: 50px;
-  font-size: 14px;
-  text-decoration: none;
-  letter-spacing: 0.1rem;
 }
 
 .container-gallery {
   align-items: center;
+  justify-content: center;
   padding: 0 144px;
   margin: 100px 0;
+}
+
+.subtitle {
+  color: #f65282;
+  font-size: 18px;
+}
+.about-title {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.4rem;
+  margin-bottom: 10px;
+}
+
+.about-spacing {
+  margin: 30px 0px 40px 0px;
+}
+
+.container-about {
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.about-content {
+  padding: 10px 144px 30px 0px;
+}
+
+.camera-container {
+  background-color: #2d2727;
+  padding: 20px;
+  max-width: 423px;
+  display: flex;
 }
 
 .footer-main {
