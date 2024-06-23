@@ -40,7 +40,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 908px;
 }
 
 .caption {
@@ -134,9 +133,26 @@
   padding: 25px 5px;
 }
 
+@media (max-width: 576px) {
+  .responsive-footer {
+    display: none;
+  }
+
+  .responsive-brands {
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+}
+
 .shecodes {
   height: 24.75px;
   width: 150px;
+}
+
+.brands {
+  list-style: none;
+  justify-content: center;
 }
 
 .fa-brands {
