@@ -195,6 +195,10 @@
   padding: 25px 5px;
 }
 
+.responsive-footer a {
+  text-decoration: none;
+}
+
 @media (max-width: 576px) {
   .footer-main {
     display: none;
@@ -211,6 +215,10 @@
   justify-content: center;
 }
 
+.brands a {
+  text-decoration: none;
+}
+
 .fa-brands {
   color: #fff;
   font-size: 16px;
@@ -221,4 +229,15 @@
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
+}
+
+.final-footer {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.final-footer a {
+  color: #fff;
 }
