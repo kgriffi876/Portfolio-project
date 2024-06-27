@@ -173,6 +173,11 @@
   padding: 30px;
 }
 
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
 .footer-main {
   display: flex;
   text-align: center;
